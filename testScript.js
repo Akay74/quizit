@@ -228,7 +228,94 @@ var questions=[
             'D: To select and style a specific HTML element'
         ],
         answer: 2
-    }
+    },
+
+    {
+        question:'What is WordPress primarily used for?',
+        options:[
+            'A: E-commerce',
+            'B: Blogging',
+            'C: Social Media',
+            'D: Video Editing'
+        ],
+        answer: 1
+    },
+
+    {
+        question: 'Which of the following types of content can you create in WordPress?',
+    options: [
+            'A: Only blog posts',
+            'B: Only pages',
+            'C: Blog posts, pages, and more',
+            'D: Only images'
+        ],
+    answer: 2
+    },
+    {
+        question: 'What is the WordPress Dashboard?',
+    options: [
+            'A: A physical screen',
+            'B: The admin control panel',
+            'C: A WordPress plugin',
+            'D: A blog post template',
+        ],
+    answer: 1
+    },
+
+    {
+        question: 'What is a WordPress theme?',
+        options:[
+            'A: A type of blog post',
+            'B: A template that defines a website\'s design',
+            'C: A social media plugin',
+            'D: A website hosting service'
+        ],
+
+    answer: 1
+    },
+
+    {
+        question: 'What is a WordPress plugin?',
+        options: [
+            'A: A type of theme',
+            'B: A page on your website',
+            'C: An external website',
+            'D: An add-on that extends website functionality',
+        ],
+    answer: 3
+    },
+
+    {
+        question: 'Which of the following is a common way to add new content to your WordPress website?',
+    options: [
+            'A: Use a wrench',
+            'B: Hire a developer',
+            'C: Use the WordPress editor',
+            'D: Call customer support'
+        ],
+    answer: 2
+    },
+
+    {
+        question: 'What is the purpose of the Media Library in WordPress?',
+    options: [
+            'A: To display ads',
+            'B: To store and manage media files like images and videos',
+            'C: To list blog categories',
+            'D: To track website visitors',
+        ],
+    answer: 1
+    },
+    {
+        question:'How can you change the appearance of your WordPress site using themes?',
+        options:[
+            'A: By changing the website\'s domain',
+            'B: By customizing the website\'s design and layout',
+            'C: By updating the website\'s hosting server',
+            'D: By deleting the website\'s content'
+        ],
+    answer: 2
+}
 ]
 
 totalQuestionSpan.innerHTML = questions.length;
