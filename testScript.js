@@ -261,7 +261,6 @@ var questions=[
         ],
     answer: 1
     },
-
     {
         question: 'What is a WordPress theme?',
         options:[
@@ -273,7 +272,6 @@ var questions=[
 
     answer: 1
     },
-
     {
         question: 'What is a WordPress plugin?',
         options: [
@@ -284,7 +282,6 @@ var questions=[
         ],
     answer: 3
     },
-
     {
         question: 'Which of the following is a common way to add new content to your WordPress website?',
     options: [
@@ -295,7 +292,6 @@ var questions=[
         ],
     answer: 2
     },
-
     {
         question: 'What is the purpose of the Media Library in WordPress?',
     options: [
