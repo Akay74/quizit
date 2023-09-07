@@ -227,7 +227,7 @@ var questions=[
             'C: To select and style multiple elements with the same class',
             'D: To select and style a specific HTML element'
         ],
-        answer: C
+        answer: 2
     }
 ]
 
