@@ -309,7 +309,7 @@ var questions=[
             'C: By updating the website\'s hosting server',
             'D: By deleting the website\'s content'
         ],
-        answer: 2
+        answer: 1
     },
     {
         q:'What does SEO stand for in the context of WordPress?',
