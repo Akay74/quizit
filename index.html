@@ -11,31 +11,40 @@
     <div class="quiz-container">
         <div class="question-number">
             <h3>Question <span class="question-num-value">1</span> of <span class="total-question"></span></h3>
-      </div>
-      <div class="question">
-        
+        </div>
+        <div class="question"></div>
+        <div class="options">
+            <div id="0" class="option1" onclick="check(this)"></div>
+            <div id="1" class="option2" onclick="check(this)"></div>
+            <div id="2" class="option3" onclick="check(this)"></div>
+        </div>
+        <div class="button">
+        <button type="button" class="btn" onclick="next()">Next</button>
+        </div>
+        <div class="answers-tracker"></div>
     </div>
-    <div class="options">
-        <div id="0" class="option1" onclick="check(this)"></div>
-        <div id="1" class="option2" onclick="check(this)"></div>
-        <div id="2" class="option3" onclick="check(this)"></div>
-   </div>
-   <div class="button">
-       <button type="button" class="btn" onclick="next()">Next</button>
-  </div>
-  <div class="answers-tracker">
-
- </div>
+    <div class="start-quiz">
+        <div class="box">
+            <h2>Welcome to the Techan Test portal! 👋</h2>
+            <p>
+                Your test includes 3 sections: <b>HTML</b>, <b>CSS</b>, and <b>Wordpress</b>.<br><br>
+                You are to choose one correct option for each of the questions.<br>
+                Once you have selected an option, it cannot be changed.<br>
+                You cannot skip a question or go back to a previous question.<br>
+                Your score will be displayed at the end of the test
+            </p>
+            <button type="button" onclick="startQuiz()">START TEST</button>
+        </div>
     </div>
     <div class="quiz-over">
         <div class="box">
         <h1>
             GOOD!<br>
-            Your Score is <span class="correct-answers"></span> <br> 
+            Your Score is <span class="correct-answers"></span> of <span class="total-question2"></span><br> 
         </h1>
         <button type="button" onclick="tryAgain()">RESTART</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="testScript.js"></script>
 </body>
 </html>

@@ -99,33 +99,33 @@ function randomQuestion(){
     let randomNumber=Math.floor(Math.random()*questions.length);
     let hitDuplicate=0;  
     if(index==questions.length) {
-            quizOver();
-        }
-        else {
-            if(myArray.length>0){
-            for(let i=0; i<myArray.length; i++) {
-            if(myArray[i]==randomNumber){
-                hitDuplicate=1;
-                break;
-            }
-        }
-        if(hitDuplicate==1){
-            randomQuestion();
-        }
-        else{
-            questionIndex=randomNumber;
-            load();
-            myArr.push(questionIndex);
-        }
+        quizOver();
     }
-            if(myArray.length==0){
-            questionIndex=randomNumber;
-            load();
-            myArr.push(questionIndex);
+    else {
+        if(myArray.length>0){
+            for(let i=0; i<myArray.length; i++) {
+                if(myArray[i]==randomNumber){
+                    hitDuplicate=1;
+                    break;
+                }
             }
+            if(hitDuplicate==1){
+                randomQuestion();
+            }
+            else{
+                questionIndex=randomNumber;
+                load();
+                myArr.push(questionIndex);
+            }
+        }
+        if(myArray.length==0){
+        questionIndex=randomNumber;
+        load();
+        myArr.push(questionIndex);
+        }
         
         myArray.push(randomNumber);
-        }
+    }
 }
 function answerTracker() {
     for(let i=0; i<questions.length; i++) {
