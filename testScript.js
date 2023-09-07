@@ -362,6 +362,27 @@ var questions=[
             'D: A theme for senior citizens'
         ],
         answer: 2
+    },
+    {
+        q: 'What is the difference between a WordPress post and a WordPress page?',
+
+        options:[
+            'A: Posts are used for static content, while pages are used for blog entries',
+            'B: Pages are used for static content, while posts are used for blog entries',
+            'C: There is no difference; the terms are interchangeable',
+            'D: Pages are used for images, while posts are used for text content'
+        ],
+        answer: 1
+    },
+    {
+        q:'When setting up a new WordPress website, why is it important to carefully choose a template design (theme)?',
+        [
+            'A: Templates are only important for e-commerce websites',
+            'B: It has no impact on the website\'s appearance and functionality',
+            'C: The template design determines the overall look and layout of your website',
+            'D: Templates are only relevant for advanced users, not beginners'
+        ],
+        answer: 2
     }
 ]
 
