@@ -134,10 +134,10 @@ var questions=[
         q: 'How do you apply inline CSS to change the color of text to blue?',
 
         options: [
-            'A: <p style="text-color: blue;">Blue Text</p>',
-            'B: <p style="blue: text;">Blue Text</p>',
-            'C: <p style="color: blue;">Blue Text</p>',
-            'D: <p style="style: blue;">Blue Text</p>'
+            'A: &lt;p style="text-color: blue;"&gt;Blue Text&lt;/p&gt;',
+            'B: &lt;p style="blue: text;"&gt;Blue Text&lt;/p&gt;',
+            'C: &lt;p style="color: blue;"&gt;Blue Text&lt;/p&gt;',
+            'D: &lt;p style="style: blue;"&gt;Blue Text&lt;/p&lt;'
         ],
         answer: 2
     },
