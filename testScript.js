@@ -376,7 +376,7 @@ var questions=[
     },
     {
         q:'When setting up a new WordPress website, why is it important to carefully choose a template design (theme)?',
-        [
+        options:[
             'A: Templates are only important for e-commerce websites',
             'B: It has no impact on the website\'s appearance and functionality',
             'C: The template design determines the overall look and layout of your website',
