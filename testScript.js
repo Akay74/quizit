@@ -169,7 +169,7 @@ var questions=[
         options:[
             'A: To create interactive web applications',
             'B: To manage server-side operations',
-            'C: To structure and present content',
+            'C: To add styling to a web content',
             'D: To manage databases'
         ],
         answer: 2
