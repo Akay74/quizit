@@ -119,7 +119,7 @@ var questions=[
     },
 
     {
-        question: 'What does CSS stand for?',
+        q: 'What does CSS stand for?',
 
         options: [
             'A: Computer Style System',
@@ -131,7 +131,7 @@ var questions=[
     },
 
     {
-        question: 'How do you apply inline CSS to change the color of text to blue?',
+        q: 'How do you apply inline CSS to change the color of text to blue?',
 
         options: [
             'A: <p style="text-color: blue;">Blue Text</p>',
@@ -142,7 +142,7 @@ var questions=[
         answer: 2
     },
     {
-        question: 'Which CSS property is used to change the font size of an element?',
+        q: 'Which CSS property is used to change the font size of an element?',
 
         options: [
             'A: font-style',
@@ -153,7 +153,7 @@ var questions=[
         answer: 2
     },
     {
-        question:'How do you select an HTML element with the ID "header" in CSS?',
+        q:'How do you select an HTML element with the ID "header" in CSS?',
 
         options:[
             'A: .header',
@@ -164,7 +164,7 @@ var questions=[
         answer: 2
     },
     {
-        question:'What is the purpose of CSS in web development?',
+        q:'What is the purpose of CSS in web development?',
 
         options:[
             'A: To create interactive web applications',
@@ -175,7 +175,7 @@ var questions=[
         answer: 2
     },
     {
-        question: 'Which CSS property is used to control the spacing between letters in text?',
+        q: 'Which CSS property is used to control the spacing between letters in text?',
 
         options: [
             'A: word-spacing',
@@ -186,7 +186,7 @@ var questions=[
         answer: 2
     },
     {
-        question: 'How do you give an element a border in CSS?',
+        q: 'How do you give an element a border in CSS?',
 
         options: [
             'A: border: 1px solid black;',
@@ -197,7 +197,7 @@ var questions=[
         answer: 0
     },
     {
-        question: 'What is the difference between margin and padding in CSS?',
+        q: 'What is the difference between margin and padding in CSS?',
 
         options:[
             'A: Margin is the space inside an element, while padding is the space outside an element\'s border',
@@ -208,7 +208,7 @@ var questions=[
         answer: 1
     },
     {
-        question: 'How can you apply a background color to an element in CSS?',
+        q: 'How can you apply a background color to an element in CSS?',
 
         options:[
             'A: bg-color',
@@ -219,8 +219,7 @@ var questions=[
         answer: 2
     },
     {
-        question: 'What is a CSS class selector used for?',
-
+        q: 'What is a CSS class selector used for?',
         options:[
             'A: To select the first element on a page',
             'B: To select the last element on a page',
@@ -231,7 +230,7 @@ var questions=[
     },
 
     {
-        question:'What is WordPress primarily used for?',
+        q:'What is WordPress primarily used for?',
         options:[
             'A: E-commerce',
             'B: Blogging',
@@ -242,27 +241,27 @@ var questions=[
     },
 
     {
-        question: 'Which of the following types of content can you create in WordPress?',
-    options: [
-            'A: Only blog posts',
-            'B: Only pages',
-            'C: Blog posts, pages, and more',
-            'D: Only images'
-        ],
-    answer: 2
+        q: 'Which of the following types of content can you create in WordPress?',
+        options: [
+                'A: Only blog posts',
+                'B: Only pages',
+                'C: Blog posts, pages, and more',
+                'D: Only images'
+            ],
+        answer: 2
     },
     {
-        question: 'What is the WordPress Dashboard?',
-    options: [
-            'A: A physical screen',
-            'B: The admin control panel',
-            'C: A WordPress plugin',
-            'D: A blog post template',
-        ],
-    answer: 1
+        q: 'What is the WordPress Dashboard?',
+        options: [
+                'A: A physical screen',
+                'B: The admin control panel',
+                'C: A WordPress plugin',
+                'D: A blog post template',
+            ],
+        answer: 1
     },
     {
-        question: 'What is a WordPress theme?',
+        q: 'What is a WordPress theme?',
         options:[
             'A: A type of blog post',
             'B: A template that defines a website\'s design',
@@ -270,40 +269,40 @@ var questions=[
             'D: A website hosting service'
         ],
 
-    answer: 1
+        answer: 1
     },
     {
-        question: 'What is a WordPress plugin?',
+        q: 'What is a WordPress plugin?',
         options: [
             'A: A type of theme',
             'B: A page on your website',
             'C: An external website',
             'D: An add-on that extends website functionality',
         ],
-    answer: 3
+        answer: 3
     },
     {
-        question: 'Which of the following is a common way to add new content to your WordPress website?',
-    options: [
-            'A: Use a wrench',
-            'B: Hire a developer',
-            'C: Use the WordPress editor',
-            'D: Call customer support'
-        ],
-    answer: 2
+        q: 'Which of the following is a common way to add new content to your WordPress website?',
+        options: [
+                'A: Use a wrench',
+                'B: Hire a developer',
+                'C: Use the WordPress editor',
+                'D: Call customer support'
+            ],
+        answer: 2
     },
     {
-        question: 'What is the purpose of the Media Library in WordPress?',
-    options: [
-            'A: To display ads',
-            'B: To store and manage media files like images and videos',
-            'C: To list blog categories',
-            'D: To track website visitors',
-        ],
-    answer: 1
+        q: 'What is the purpose of the Media Library in WordPress?',
+        options: [
+                'A: To display ads',
+                'B: To store and manage media files like images and videos',
+                'C: To list blog categories',
+                'D: To track website visitors',
+            ],
+        answer: 1
     },
     {
-        question:'How can you change the appearance of your WordPress site using themes?',
+        q:'How can you change the appearance of your WordPress site using themes?',
         options:[
             'A: By changing the website\'s domain',
             'B: By customizing the website\'s design and layout',
@@ -313,7 +312,7 @@ var questions=[
         answer: 2
     },
     {
-        question:'What does SEO stand for in the context of WordPress?',
+        q:'What does SEO stand for in the context of WordPress?',
         options:[
             'A: Social Engagement Optimization',
             'B: Search Engine Optimization',
@@ -323,7 +322,7 @@ var questions=[
         answer: 1
     },
     {
-        question: 'What is the purpose of a permalink in WordPress?',
+        q: 'What is the purpose of a permalink in WordPress?',
         options:[
             'A: To share on social media',
             'B: To save drafts',
@@ -334,7 +333,7 @@ var questions=[
     },
 
     {
-        question: 'What is a WordPress permalink structure?',
+        q: 'What is a WordPress permalink structure?',
         options: [
             'A: A type of WordPress theme',
             'B: The default URL format for your posts and pages',
@@ -344,7 +343,7 @@ var questions=[
         answer: 1
     },
     {
-        question:'What is the purpose of WordPress permalinks?',
+        q:'What is the purpose of WordPress permalinks?',
            options:[
             'A: To create blog posts',
             'B: To set up a website hosting plan',
@@ -355,7 +354,7 @@ var questions=[
     answer: 2
     },
     {
-        question:'What is a WordPress child theme?',
+        q:'What is a WordPress child theme?',
        options: [
             'A: A theme for children\'s websites',
             'B: A theme for gaming websites',
