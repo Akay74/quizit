@@ -314,8 +314,60 @@ var questions=[
             'C: By updating the website\'s hosting server',
             'D: By deleting the website\'s content'
         ],
+        answer: 2
+    },
+    {
+        question:'What does SEO stand for in the context of WordPress?',
+        options:[
+            'A: Social Engagement Optimization',
+            'B: Search Engine Optimization',
+            'C: Secure Email Operations',
+            'D: Site Editing Options'
+        ],
+        answer: 1
+    },
+    {
+        question: 'What is the purpose of a permalink in WordPress?',
+        options:[
+            'A: To share on social media',
+            'B: To save drafts',
+            'C: To customize your website\'s fonts',
+            'D: To create a permanent URL structure for your posts and pages'
+        ],
+        answer: 3
+    },
+
+    {
+        question: 'What is a WordPress permalink structure?',
+        options: [
+            'A: A type of WordPress theme',
+            'B: The default URL format for your posts and pages',
+            'C: A type of SEO plugin',
+            'D: The website\'s footer design',
+        ],
+        answer: 1
+    },
+    {
+        question:'What is the purpose of WordPress permalinks?',
+           options:[
+            'A: To create blog posts',
+            'B: To set up a website hosting plan',
+            'C: To create custom URLs for your site\'s pages and posts',
+            'D: To manage user accounts',
+        ],
+
     answer: 2
-}
+    },
+    {
+        question:'What is a WordPress child theme?',
+       options: [
+            'A: A theme for children\'s websites',
+            'B: A theme for gaming websites',
+            'C: A theme that inherits the styles and functions of another theme',
+            'D: A theme for senior citizens'
+        ],
+        answer: 2
+    }
 ]
 
 totalQuestionSpan.innerHTML = questions.length;
