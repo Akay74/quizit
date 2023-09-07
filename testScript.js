@@ -117,6 +117,118 @@ var questions=[
         ],
         answer: 2
     },
+
+    {
+        question: 'What does CSS stand for?',
+
+        options: [
+            'A: Computer Style System',
+            'B: Central System Software',
+            'C: Cascading Style Sheets',
+            'D: Colorful Styling Scheme'
+        ],
+        answer: 2
+    },
+
+    {
+        question: 'How do you apply inline CSS to change the color of text to blue?',
+
+        options: [
+            'A: <p style="text-color: blue;">Blue Text</p>',
+            'B: <p style="blue: text;">Blue Text</p>',
+            'C: <p style="color: blue;">Blue Text</p>',
+            'D: <p style="style: blue;">Blue Text</p>'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Which CSS property is used to change the font size of an element?',
+
+        options: [
+            'A: font-style',
+            'B: text-size',
+            'C: font-size',
+            'D: text-style'
+        ],
+        answer: 2
+    },
+    {
+        question:'How do you select an HTML element with the ID "header" in CSS?',
+
+        options:[
+            'A: .header',
+            'B: element#header',
+            'C: #header',
+            'D: header'
+        ],
+        answer: 2
+    },
+    {
+        question:'What is the purpose of CSS in web development?',
+
+        options:[
+            'A: To create interactive web applications',
+            'B: To manage server-side operations',
+            'C: To structure and present content',
+            'D: To manage databases'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Which CSS property is used to control the spacing between letters in text?',
+
+        options: [
+            'A: word-spacing',
+            'B: text-spacing',
+            'C: letter-spacing',
+            'D: line-spacing'
+        ],
+        answer: 2
+    },
+    {
+        question: 'How do you give an element a border in CSS?',
+
+        options: [
+            'A: border: 1px solid black;',
+            'B: element-border: 1px solid black;',
+            'C: border-style: 1px solid black;',
+            'D: border-width: 1px solid black;'
+        ],
+        answer: 0
+    },
+    {
+        question: 'What is the difference between margin and padding in CSS?',
+
+        options:[
+            'A: Margin is the space inside an element, while padding is the space outside an element\'s border',
+            'B: Margin is the space outside an element, while padding is the space inside an element\'s border',
+            'C: Margin is the width of an element, while padding is the height of an element',
+            'D: Margin is the space between two elements, while padding is the space within a single element'
+        ],
+        answer: 1
+    },
+    {
+        question: 'How can you apply a background color to an element in CSS?',
+
+        options:[
+            'A: bg-color',
+            'B: color-background',
+            'C: background-color',
+            'D: bg-style'
+        ],
+        answer: 2
+    },
+    {
+        question: 'What is a CSS class selector used for?',
+
+        options:[
+            'A: To select the first element on a page',
+            'B: To select the last element on a page',
+            'C: To select and style multiple elements with the same class',
+            'D: To select and style a specific HTML element'
+        ],
+        answer: C
+    }
 ]
 
 totalQuestionSpan.innerHTML = questions.length;
