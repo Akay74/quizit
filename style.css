@@ -177,6 +177,7 @@ body {
     margin: 0 0 20px;
 }
 .quiz-over .box button{
+    cursor: pointer;
     padding: 15px 50px;
     border:none;
     background-color: rgb(165, 170, 245);
