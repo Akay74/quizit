@@ -42,8 +42,8 @@ var questions=[
         options:[
             'A:  &lt;heading2&gt;Heading Text&lt;/heading2&gt;',
             'B:  &lt;h2&gt;Heading Text&lt;/h2&gt;',
-            'C:  &lt;h2&gt;Text Heading&lt;/h2&gt;',
-            'D:  &lt;h2&gt;Text&lt;/h2&gt;'
+            'C:  &lt;h3&gt;Text Heading&lt;/h3&gt;',
+            'D:  &lt;h4&gt;Text&lt;/h4&gt;'
         ],
         answer: 1
     },
